@@ -6,14 +6,8 @@ public class PostManager {
     private Post[] posts;
     int ownerId;
 
-    public Post[] wallSearch(){
-        int ownerId = this.ownerId;
-        String domain;
-        String query;
-        boolean ownersOnly;
-        int count;
-        int offset;
-// add some logic
+    public Posts[] search(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
+        // some logic
         return null;
     }
 
